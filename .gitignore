@@ -1,0 +1,24 @@
+# インストールした依存パッケージ
+node_modules/
+
+# ビルド結果
+dist/
+
+# TypeScriptのビルドキャッシュ
+*.tsbuildinfo
+
+# テスト結果
+converage/
+
+# ログ
+*.log
+
+# ローカルの環境変数
+.env
+.env.*
+!.env.example
+
+# OSが生成するファイル
+.DS_Store
+Thumbs.db
+
